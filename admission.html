@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/677265b051.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Praise School</title>
+  </head>
+  <body>
+    <div class="upper-nav">
+      <div class="address">
+        <i class="fa-solid fa-phone-volume"></i> +234 9031110555
+        <i class="fa-solid fa-phone-volume"></i> +234 9031110555
+        <i class="fa-solid fa-location-dot"></i> 72 Raymond Njoku Ikoyi,Lagos
+        Nigeria
+        <span class="social">
+          <span class="social-link">
+            <a href="#" class="fa fa-facebook fb"></a
+          ></span>
+          <span class="social-link"
+            ><a href="#" class="fa fa-instagram ig"></a
+          ></span>
+          <span class="social-link"
+            ><a href="#" class="fa fa-linkedin ln"></a
+          ></span>
+          <span class="social-link"
+            ><a href="#" class="fa fa-youtube yt"></a
+          ></span>
+        </span>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"> The <span>Praise</span> Schools</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Admission</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Us
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="about.html">History</a></li>
+                <li>
+                  <a class="dropdown-item" href="index.html#alumni">Alumni</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="admission.html">Enroll Now</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="admission.html#footer" class="nav-link">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="admission.html" class="appbtn"
+                >2022 Entrance Examination</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container admission-form">
+      <form id="contact" action="" method="post">
+        <h3>Admission Form</h3>
+        <h4>Enroll your ward today and get quality education</h4>
+        <fieldset>
+          <input
+            placeholder="Your name"
+            type="text"
+            tabindex="1"
+            required
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Your Email Address"
+            type="email"
+            tabindex="2"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Your Phone Number"
+            type="tel"
+            tabindex="3"
+            title="only numbers are accepted"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            name="grade"
+            list="grade"
+            placeholder="Grade/Class"
+            type="text"
+            tabindex="4"
+            required
+          />
+          <datalist id="grade">
+            <option value="Preparatory"></option>
+            <option value="Nursery 1"></option>
+            <option value="Nursery 2"></option>
+            <option value="Nursery 3"></option>
+            <option value="Primary 1 (Grade 1)"></option>
+            <option value="Primary 2 (Grade 2)"></option>
+            <option value="Primary 3 (Grade 3)"></option>
+            <option value="Primary 4 (Grade 4)"></option>
+            <option value="Primary 5 (Grade 5)"></option>
+            <option value="Junior Secondary school 1 (Grade 7)"></option>
+            <option value="Junior Secondary school 2 (Grade 8)"></option>
+            <option value="Junior Secondary school 3 (Grade 9)"></option>
+            <option value="Senior Secondary school 1 (Grade 10)"></option>
+            <option value="Senior Secondary school 2 (Grade 11)"></option>
+            <option value="Senior Secondary school 3 (Grade 12)"></option>
+          </datalist>
+        </fieldset>
+        <fieldset>
+          <button
+            name="submit"
+            type="submit"
+            id="contact-submit"
+            data-submit="...Sending"
+          >
+            <a href="mailto:praiseschool@gmail.com">Submit</a>
+          </button>
+        </fieldset>
+      </form>
+    </div>
+    <div class="container-fluid facilities">
+      <h2 class="text-center">Our Facilities</h2>
+      <div class="row">
+        <div class="col-sm-6 first-fac">
+          <ul>
+            <li>Well Equiped Biology Laboratory</li>
+            <li>Well Equiped Chemistry Laboratory</li>
+            <li>School Clinic</li>
+            <li>Creche and Playgroup</li>
+            <li>Basketball Court</li>
+            <li>Football Field</li>
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul>
+            <li>Well Equiped Physics Laboratory</li>
+            <li>Well Equiped Computer Laboratory</li>
+            <li>White Boards</li>
+            <li>School Hall</li>
+            <li>Playground</li>
+            <li>Generator</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer id="footer" class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              quia temporibus, quaerat molestiae, assumenda saepe, ipsam
+              mollitia ex voluptate sint numquam eligendi! Omnis doloribus sint
+              consectetur eius reiciendis amet repellat. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Esse placeat suscipit
+              obcaecati. Eligendi harum est alias minus velit?
+            </p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>ADDRESS</h6>
+            <ul class="footer-links">
+              <li><i class="fa-solid fa-location-dot"></i> Akinyemi way</li>
+              <li>
+                <i class="fa-solid fa-envelope"></i> praiseschool@gmail.com
+              </li>
+              <li><i class="fa-solid fa-phone"></i> +234 8088636134</li>
+              <li><i class="fa-brands fa-instagram"></i> praise_school</li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>CONTACT US</h6>
+            <ul class="footer-links">
+              <li>
+                <form>
+                  <div class="text">Email *</div>
+                  <input type="email" required />
+                </form>
+              </li>
+              <li>
+                <div class="text">Message *</div>
+                <textarea cols="25" rows="2" required></textarea>
+              </li>
+              <li>
+                <button type="submit" class="send">Send</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">
+              Copyright &copy; 2022 All Rights Reserved by
+              <a href="#">Praise School</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li>
+                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+              </li>
+              <li>
+                <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
