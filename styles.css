@@ -2,31 +2,6 @@ a {
   text-decoration: none;
   color: black;
 }
-
-.upper-nav {
-  background: #c80e18;
-  color: white;
-}
-.social {
-  margin-left: 180px;
-  margin-right: 0 auto;
-}
-.social-link {
-  padding-right: 10px;
-  font-family: "Noto Sans", sans-serif;
-  font-style: italic;
-  font-size: 14px;
-}
-.address {
-  margin-left: 90px;
-}
-.fb,
-.yt,
-.ln,
-.ig,
-.sh {
-  color: white;
-}
 @keyframes slidy {
   0% {
     left: 0%;
